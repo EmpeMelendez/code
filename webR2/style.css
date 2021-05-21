@@ -41,7 +41,48 @@ table tr:nth-child(even) {
         border: 1px solid #999;
     
     }
+}
+
+@media (max-width: 640px) and (orientation: landscape) {
+
+    body {
+        font-size: .6em;
+    }
+
+    .container-table {
+        width: 98vw;
+        height: 98vh;
+        border: 1px solid #999;
     
+    }
+}
+
+@media (max-width: 823px) and (orientation: landscape) {
+
+    body {
+        font-size: .6em;
+    }
+
+    .container-table {
+        width: 98vw;
+        height: 98vh;
+        border: 1px solid #999;
+    
+    }
+}
+
+@media (max-width: 1366px) and (orientation: landscape) {
+
+    body {
+        font-size: 1.3em;
+    }
+
+    .container-table {
+        width: 98vw;
+        height: 98vh;
+        border: 1px solid #999;
+    
+    }
 }
 
 
